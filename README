@@ -1,7 +1,7 @@
 ModeShape/Infinispan artifact inspection utility. 
 
-Uses ModeShape/Infinispan APIs for analysis, instead of parsing raw files like bsondump.
+Uses ModeShape/Infinispan APIs for analysis.
 
-1) Download and build from dev branch: mvn clean install
+1) mvn clean install
 
 2) Run with java -jar modetrace-jar-with-dependencies.jar -t storetype -f path
