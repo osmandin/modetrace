@@ -35,6 +35,11 @@
             <version>${commons-io.version}</version>
         </dependency>
         <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>${commons-collections.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>${commons-lang3.version}</version>
@@ -42,7 +47,14 @@
         <dependency>
             <groupId>org.modeshape</groupId>
             <artifactId>modeshape-schematic</artifactId>
-            <version>3.6.0.Final</version>
+            <version>${modeshape-schematic.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.infinispan</groupId>
+            <artifactId>infinispan-core</artifactId>
+            <version>${infinispan-core.version}</version>
+            <type>test-jar</type>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -60,6 +72,9 @@
         <commons-cli.version>1.2</commons-cli.version>
         <logback-classic.version>1.0.13</logback-classic.version>
         <maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
+        <commons-collections.version>3.2.1</commons-collections.version>
+        <modeshape-schematic.version>3.6.0.Final</modeshape-schematic.version>
+        <infinispan-core.version>5.2.7.Final</infinispan-core.version>
     </properties>
 
     <build>
