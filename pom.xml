@@ -50,6 +50,11 @@
             <version>${modeshape-schematic.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.fusesource.leveldbjni</groupId>
+            <artifactId>leveldbjni-all</artifactId>
+            <version>${leveldbjni-all.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.infinispan</groupId>
             <artifactId>infinispan-core</artifactId>
             <version>${infinispan-core.version}</version>
@@ -74,6 +79,7 @@
         <commons-collections.version>3.2.1</commons-collections.version>
         <modeshape-schematic.version>3.6.0.Final</modeshape-schematic.version>
         <infinispan-core.version>5.2.7.Final</infinispan-core.version>
+        <leveldbjni-all.version>1.7</leveldbjni-all.version>
     </properties>
 
     <build>
