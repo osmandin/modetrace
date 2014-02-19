@@ -29,7 +29,7 @@ public class LevelDBReaderTest extends AbstractTest {
             throw new UnsupportedOperationException("ISPN store not supported on this platform.");
     }
 
-    @Test
+    //@Test
     public void testFedoraContentsInLevelDB() {
         List<SchematicEntryLiteral> list = new ArrayList();
         try {
